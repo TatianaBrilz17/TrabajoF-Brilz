@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-boottom">
+    <div class="container-fluid">
+      <a href="../index.html" class="navbar-brand">
+      <img src="../images/LogoAlmas001izquierda.jpg" class="navbar-brand"></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="MenuNavegacion" class="collapse navbar-collapse d-flex justify-content-around">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item"><a class="nav-link" href="/index.html">Inicio </a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros </a></li>
+          <li class="nav-item"><a class="nav-link" href=" ../pages/queresemprender.html">¿Querés empreder?</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+  </head>
+
+
+
+
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 p-3">
+
+                        <h2 class="form">Formulario de Contacto</h2>
+                       
+
+            <form id="form1" method="post" action="envioemail.php">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                    <div id="nombreError" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email">
+                    <div id="emailError" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Provincia</label>
+                    <select class="form-control" id="provincia">
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="La Pampa">La Pampa</option>
+                        <option value="Rio Cuarto">Rio Cuarto</option>
+                    </select>
+                    <div id="provinciaError" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="consulta" class="form-label">Consulta</label>
+                    <textarea id="consulta" class="form-control"></textarea>
+                    <div id="consultaError" class="form-text"></div>
+                </div>
+                <input type="button" id="boton_enviar" class="btn btn-secondary" value="Enviar">
+            </form> 
+            <div class="col-md-6 p-3">
+                <div id="resultado"></div>
+            </div>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+
+
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="/js/formulario.js "></script>
+<script src="/js/main_toastify.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+    {"id": 1, "nombre": "WANNA", "descripcion": "Dulce, intensa nota frutal, melón tropical con un sutil toque floral.", "imagen": "images/wanna.png", "precio":500},
+    {"id": 2, "nombre": "LAVANDA CON MANZANILLA", "descripcion": "Suave y típica nota de lavanda con un sutil toque de manzanilla azul.", "imagen": "images/LavandaconManzanilla.png", "precio":550},
+    {"id": 3, "nombre": "HIGOS & ÁMBAR", "descripcion": "Un aroma delicioso, frutado, fresco y dulce. Una edición muy especial, para celebrar como tanto esperamos!", "imagen": "images/textilHigosyAmbar.png", "precio": 800},
+    {"id": 4, "nombre": "AMOR Y DULCE DE LECHE", "descripcion": "Un delicioso y cálido aroma a dulce de leche, vainilla y caramelo. ", "imagen": "images/textilddl.png", "precio": 650},
+    {"id": 5, "nombre": "FLORES Y FRUTAS", "descripcion": "Suave aroma a rosa con bergamota y cítricos, con fondo de almizcle y vainilla.", "imagen": "images/FloresyFrutas.png", "precio":850 },
+    {"id": 6, "nombre": "POMELO CON MANDARINA", "descripcion": "Penetrante, intensa y cítrica nota frutal de pomelo con un sutil toque de mandarina.", "imagen": "images/PomeloconMandarina.png", "precio": 950},
+    {"id": 7, "nombre": "FLORES BLANCAS", "descripcion": "Afrodisíaca e intensa nota de jazmín del cabo y pimpollos de rosas blancas, con fondo de ámbar y orquídeas.", "imagen": "images/FloresBlancas.png", "precio":750 },
+    {"id": 8, "nombre": "ROSA", "descripcion": "Intensa y apasionante nota de rosa búlgara con fondo amaderado.", "imagen": "images/Rosas.png ", "precio":950 },
+    {"id": 9, "nombre": "FLOR DE TÉ VERDE", "descripcion": "Suave nota de hierbas silvestres con un toque de heno.", "imagen": "images/FlordeTeVerde.png", "precio":850 }, 
+    {"id": 10, "nombre": "FRESIAS CON VAINILLA", "descripcion": "Penetrante, primaveral nota floral de fresias con un sutil toque de vainilla.", "imagen": "images/FresiasconVainilla.png", "precio":450 },
+    {"id": 11, "nombre": "MEN", "descripcion": "Suave y afrodisíaca nota floral de lavanda y frutal de bergamota con pimienta, jengibre y tonos amaderados y terrosos.", "imagen": "images/Men.png", "precio":750 },
+    {"id": 12, "nombre": "CONI BB", "descripcion": "Suave y fresca nota, amaderada con marcada nota floral de lilas como fondo.", "imagen": "images/Conibb.png ", "precio":950 },
+    {"id": 13, "nombre": "BABY", "descripcion": "Cítrica y fresca, con notas frutales de naranja y bergamota con fondo amaderado.", "imagen": "images/Baby.png", "precio":850 }, 
+    {"id": 14, "nombre": "COLONIA INGLESA", "descripcion": "Cítrica, fresca, almizclada con elevada presencia de notas frutales de limón y naranjas con fondo de ámbar y floral de magnolias.", "imagen": "images/ColoniaInglesa.png", "precio":450 }
+]

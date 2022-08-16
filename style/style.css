@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(../images/fondo.jpg);
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.form{
+    color: tomato;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.ContenidoNosotros .ContenidoNosotros__h2 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 22px;
+  font-family: 'Clicker Script';
+  color: #d33643;
+  font-size: 5em;
+}
+
+.nuestrosproductos{
+  font-size: 3rem;
+  color: #d33643;
+  font-family:'Times New Roman', Times, serif;
+}
